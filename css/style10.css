@@ -45,68 +45,22 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-html {
-  background: url("https://firebasestorage.googleapis.com/v0/b/hexschool-api.appspot.com/o/web%2Fdemo%2Fjavascript%2Fphoto-1469122312224-c5846569feb1.jpeg?alt=media&token=7ff9d611-d759-4349-91c7-d1dc9a03692d") center no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 100%; }
-
 .wrap {
-  width: 600px;
-  margin: 0 auto;
-  background: #393886;
-  margin: 100px auto;
-  padding: 1em;
-  text-align: center; }
+  width: 1024px;
+  margin: 0 auto; }
 
-.img {
-  float: left;
-  width: 200px; }
+.box2 {
+  width: 300px;
+  height: 300px;
+  margin-top: 100px;
+  border: 1px solid #000; }
 
-.logo {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%; }
-
-h1 {
-  font-size: 22px;
-  color: orange;
-  font-weight: bold; }
-
-.content {
-  float: right;
-  width: 350px;
-  text-align: left; }
-
-.clearfix {
-  overflow: auto;
-  zoom: 1; }
+.text {
+  margin: 20px 5px 0 20px;
+  padding: 5px; }
 
 .list {
-  margin: 0;
-  padding: 50px 100px 100px 0;
-  text-align: left;
-  list-style: none; }
-
-.list li {
-  border-bottom: 1px solid gray;
-  padding: 10px 0; }
-
-.addList {
-  margin-top: 20px; }
-
-.addList .text {
-  padding: 10px;
-  border: 2px solid #49290a; }
-
-.addList .send {
-  padding: 10px;
-  cursor: pointer;
-  background: #e8a874; }
-
-a {
-  color: gray; }
-
-li {
-  color: yellow;
-  font-size: 28px; }
+  margin: 10px 5px 0 20px; }
+  .list li {
+    font-size: 22px;
+    color: red; }

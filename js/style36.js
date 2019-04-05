@@ -15,6 +15,7 @@
    var todo = {
      content: txt
    };
+     //push 在陣列的末端加入一個以上的元素，並返回新的陣列長度。
    data.push(todo);
    updateList(data);
    localStorage.setItem('listData', JSON.stringify(data));
@@ -24,7 +25,7 @@
    str = '';
    var len = items.length;
    for (var i = 0; len > i; i++) {
-     str += '<li><a href="#" data-index=' + i + ' />刪除</a> <span>' + items[i].content + '</span></li>';
+     str += '<li><a href="#" data-index=' + i + ' >刪除</a> <span>' + items[i].content + '</span></li>';
    }
    list.innerHTML = str;
  }
