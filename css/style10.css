@@ -45,22 +45,42 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+body {
+  background-image: url(../img/sea.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 100%;
+  max-width: 100%; }
+
 .wrap {
-  width: 1024px;
+  max-width: 1050px;
   margin: 0 auto; }
+
+a {
+  color: gray;
+  font-size: 16px;
+  text-decoration: none;
+  margin-right: .5em; }
+
+a:hover {
+  cursor: pointer; }
 
 .box2 {
   width: 300px;
-  height: 300px;
-  margin-top: 100px;
-  border: 1px solid #000; }
+  margin: 15px auto; }
 
 .text {
   margin: 20px 5px 0 20px;
-  padding: 5px; }
+  padding: 5px;
+  border-radius: 5px; }
+
+.send {
+  border-radius: 3px;
+  padding: 3px; }
 
 .list {
   margin: 10px 5px 0 20px; }
   .list li {
     font-size: 22px;
-    color: red; }
+    color: red;
+    margin-top: .5em; }
